@@ -1,0 +1,32 @@
+{
+  "name": "jjpena.com",
+  "version": "1.0.0",
+  "description": "A website by Joseph J. Pena",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephPena/jjpena.com.git"
+  },
+  "keywords": [
+    "joseph",
+    "pena",
+    "resume"
+  ],
+  "author": "Joseph J. Pena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephPena/jjpena.com/issues"
+  },
+  "homepage": "https://github.com/JosephPena/jjpena.com#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.22.0"
+  },
+  "dependencies": {
+    "css-loader": "^0.23.1"
+  }
+}

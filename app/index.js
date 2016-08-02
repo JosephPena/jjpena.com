@@ -1,1 +1,1 @@
-require('./styles/style.css');
+require('!style!css!./styles/style.css');
