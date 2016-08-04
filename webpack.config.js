@@ -1,9 +1,14 @@
-//gameplan is to create a new plugin
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
+  template: './app/index.html'
+});
+
 module.exports = {
-    entry: "./app/index.js",
+    entry: './app/index',
     output: {
-        path: __dirname + '/dist',
-        filename: "bundle.js"
+        path: path.join(__dirname + '/dist'),
+        filename: 'bundle.js'
     },
     module: {
         loaders: [
