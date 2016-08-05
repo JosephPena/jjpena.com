@@ -7,12 +7,14 @@ var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 module.exports = {
     entry: './app/index',
     output: {
-        path: path.join(__dirname + '/dist'),
+        path: __dirname + '/dist',
         filename: 'bundle.js'
     },
-    module: {
-        loaders: [
-            { test: /\.css$/, loader: "style!css" }
-        ]
-    }
+  module: {
+    loaders: [{
+      test: /\.css$/,
+      loaders: ['style', 'css']
+    }]
+  }
 };
+
